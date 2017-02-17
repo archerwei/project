@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:id="@+id/xie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="15dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/size35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:background="#ff6437"
+                android:text="@string/shu" />
+
+            <Button
+                android:id="@+id/size36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#ff6437"
+                android:text="36" />
+
+            <Button
+                android:id="@+id/size37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#ff6437"
+                android:text="37" />
+
+            <Button
+                android:id="@+id/size38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#ff6437"
+                android:text="38" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/size39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#ff6437"
+                android:text="39" />
+
+            <Button
+                android:id="@+id/size40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#ff6437"
+                android:text="40" />
+
+            <Button
+                android:id="@+id/size41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#ff6437"
+                android:text="41" />
+
+            <Button
+                android:id="@+id/size42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#ff6437"
+                android:text="42" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/size43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#ff6437"
+                android:text="43" />
+
+            <Button
+                android:id="@+id/size44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#ff6437"
+                android:text="44" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ff6464"
+        android:text="确定" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/xie"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="178dp"
+        android:text="鞋码"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/shangpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="颜色"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/hong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/shangpin"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:background="#ff6437"
+        android:text="@string/hong" />
+
+    <Button
+        android:id="@+id/hei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hong"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/hong"
+        android:background="#ff6437"
+        android:text="黑色" />
+
+    <Button
+        android:id="@+id/huangse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hei"
+        android:layout_alignBottom="@+id/hei"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/hei"
+        android:background="#ff6437"
+        android:text="黄色" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">易购商城</string>
+    <string name="action_settings">Settings</string>
+    <string name="shouye">首页</string>
+     <string name="hong">红色</string>
+     <string name="shu">35</string>
+</resources>

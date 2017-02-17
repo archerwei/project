@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/showlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_above="@+id/rg_tab">
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rt1"
+            style="@style/mall"
+            android:drawableTop="@drawable/bt_menu_0_select"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rt2"
+            style="@style/mall"
+            android:drawableTop="@drawable/bt_menu_1_select"
+            android:text="分类" />
+
+        <RadioButton
+            android:id="@+id/rt3"
+            style="@style/mall"
+            android:drawableTop="@drawable/bt_menu_2_select"
+            android:text="购物车" />
+
+        <RadioButton
+            android:id="@+id/rt4"
+            style="@style/mall"
+            android:drawableTop="@drawable/bt_menu_3_select"
+            android:text="我的" />
+
+    </RadioGroup>
+
+</RelativeLayout>
